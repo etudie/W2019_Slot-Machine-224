@@ -22,3 +22,22 @@ A slot machine is a certain type of casino game. Traditional slot machines are c
 | 3 of a Kind | V |
 | 2 pair | V |
 
+## How to Win 
+|Var| Function| I/O |
+|--|--|--|
+| ClkIn | V | Input |
+| AN3[0:0] | **X** Y Z W| Output |
+| AN2[0:0] | X **Y** Z W | Output |
+| AN1[0:0] | X Y **Z** W | Output |
+| AN0[0:0] | X Y Z **W** | Output |
+| A| Seg Decoder | Output |
+| B | Seg Decoder | Output |
+| C | Seg Decoder | Output |
+| D | Seg Decoder | Output |
+| E | Seg Decoder | Output |
+| F | Seg Decoder | Output |
+| G | Seg Decoder | Output |
+
+![enter image description here](https://i.imgur.com/9tZZOui.png)
+![enter image description here](https://i.imgur.com/Tb9vf8m.png)
+![enter image description here](https://i.imgur.com/LNfhDnB.png)
